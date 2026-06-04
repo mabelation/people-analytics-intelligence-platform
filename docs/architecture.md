@@ -18,3 +18,15 @@ Business Layer
 People Analytics Mart
     ↓
 Tableau Dashboard + GenAI Advisor
+```
+---
+
+## Layers
+- Raw Layer:
+Stores original HR datasets without transformations.
+- Staging Layer:
+Standardizes column names, data types, and business entities.
+- Business Layer:
+Applies KPI logic and workforce analytics rules.
+- Mart Layer:
+Creates final curated table for Tableau and GenAI consumption.
