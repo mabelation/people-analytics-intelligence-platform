@@ -1,8 +1,8 @@
 # Project Charter
 
-## Project Name
+## Project Name:
 
-People Analytics Intelligence Platform with GenAI Workforce Advisor
+### People Analytics Intelligence Platform with GenAI Workforce Advisor
 
 ---
 
