@@ -45,27 +45,19 @@ Future versions will use Machine Learning and explainability models to identify 
 
 ---
 
-## Attrition Risk Score
+## Attrition Intelligence
 
-### Objective
+The attrition module is based on a supervised Machine Learning framework using the IBM HR Analytics dataset.
 
-Estimate employee turnover risk.
+Preliminary exploratory analysis identified:
 
-### Candidate Variables
+- Lower Job Satisfaction
+- Lower Work-Life Balance
+- Lower Monthly Income
 
-* Employee Satisfaction Score
-* Overtime Hours
-* Monthly Salary
-* Years At Company
-* Years Since Last Promotion
-* Work Life Balance
-* Job Satisfaction
+as potential attrition drivers.
 
-### Methodology
-
-A Random Forest classification model will be developed using employee attrition as the target variable.
-
-Feature importance and SHAP values will be used to explain the main drivers of attrition.
+These hypotheses will be validated through Random Forest Feature Importance and SHAP explainability analysis.
 
 ---
 
